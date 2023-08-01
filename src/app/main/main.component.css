@@ -1,0 +1,129 @@
+/* styles.css (or your external CSS file) */
+.container-fluid {
+  background-color: #E5F3D2;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container-whitter-image {
+  display: flex;
+  flex-direction: column;
+  max-width: 1138px;
+  max-height: 585px;
+  justify-content: center; 
+  margin: auto;
+}
+.custom-img {
+  margin-top: 20px;
+  max-width: 100%;
+  max-height: 520px;
+}
+
+.text-img-whitter {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.container-context {
+  max-width: 1065px;
+  max-height: 118px;
+  padding: 0;
+  margin: auto; 
+  margin-bottom: 5%;
+}
+
+.container-context p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+}
+.container-list{
+  display: flex;
+  max-width: 780px;
+  max-height: 422px;
+  padding: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+  
+.container-list ul li{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container-list ul li::marker {
+  color: #231F2033; /* Text decoration color for the list markers */
+}
+
+.custom-container{
+  position: relative;
+  width: 100%;
+  max-height: 863px;
+  margin-bottom: 5%;
+}
+
+.border-image {
+  width: 100%;
+  height: 100%;
+}
+
+.odd{
+  transform:rotate(180deg);
+}
+
+.custom2-container{
+  display: flex;
+  float: row;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.custom2-1-container{
+  max-width: 347px;
+  max-height: 265px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.custom2-1-container p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.Knight-Sponsor{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+@media  screen and (max-width:1000px){
+  .container-list ul li{
+    font-size: 16px;
+  }
+  .container-context p{
+    font-size: 12px;
+  }
+  .custom2-1-container p{
+    font-size: 20px;
+  }
+}
